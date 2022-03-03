@@ -1,0 +1,122 @@
+/*CSS DOCUMENT*/
+
+html{
+    background:rgb(255, 255, 255);
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    width: 7.5em;
+    margin: 1em 0em 0em 0em;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    max-width: 1250px;
+    font-family: darkmode-off, sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #000000;
+    font-family: darkmode-off, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 1em 2em 1em 1.75em;
+}
+
+
+h2{
+    color: #000000;
+    font-family: darkmode-off, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+h3{
+    font-family: darkmode-off, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 1em 0em 1em 0em;
+}
+
+h4{
+    font-family: darkmode-off, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+nav ul{
+    color: #000000;
+    padding: 0em;
+    margin: 5em 0em 0em 0em;
+    font-family: darkmode-off, sans-serif;
+    font-weight: 400;
+}
+
+nav ul li{
+    color: #000000;
+    display:inline;
+    text-decoration-line:none;
+    font-family: darkmode-off, sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    word-spacing: 2em;
+
+}
+
+li{
+    color: #000000;
+    list-style-type: none;
+    font-family: darkmode-off, sans-serif;
+    margin: 0em 0em 3em 0em;
+}
+
+a{
+    color: #000000;;
+    text-decoration-line: none;
+    }
+
+.midsec{
+    max-width: 100%;
+    margin: 0em 0em 3em 0em;
+}
+
+header{
+    margin: 1em 0em 2em 0em;
+}
+
+article{
+    max-width: 100%;
+}
+
+figure{
+    max-width: 100%;
+    margin: 0em 0em 2em 0em;
+}
+
+@media screen and (min-width: 50em){
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: right;
+    }
+
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
